@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ</title>
+    <link rel="stylesheet" href="siMple.css">
+</head>
+<body>
+    <script src="counter.js"></script>
+   <h1>Đồng hồ đếm ngược</h1>
+   <p>Nhập số phút</p>
+   <div>
+    <input type="number" id="minutes" placeholder="Nhập số phút" min="1">
+    <button onclick="startCountdown()">Bắt đầu</button>
+    <button id="stopBtn" onclick="stopCountdown()">Dừng lại</button>
+  </div>
+   <div class="time-container">
+    <p id="countdown">00:00</p>
+   </div>
+</body>
+</html>
